@@ -35,7 +35,7 @@ def map_reduce(clicks_file, users_file, chunks_num, chunks_num2):
 
     # 4th step - creating final CSV file with filtered/mapped data
     output_file = 'final.csv'
-    output_dir_path = 'data/total_clicks'
+    output_dir_path = 'data/filtered_clicks'
     output_file_path = os.path.join(output_dir_path, output_file)
     if not os.path.exists(output_dir_path):
         os.makedirs(output_dir_path)
