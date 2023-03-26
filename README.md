@@ -1,4 +1,4 @@
-### Map-Reduce Data Processing
+# Map-Reduce Data Processing
 This code processes two datasets (clicks and users), filters the data based on specific conditions (user country 'LT'), and generates an output CSV file with the filtered data. The processing is done using the Map-Reduce paradigm, splitting the data into chunks and using the multiprocessing module to process the data in parallel.
 
 ### Instructions
